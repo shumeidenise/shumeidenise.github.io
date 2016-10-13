@@ -21,37 +21,33 @@ animation: AnimationName 45s ease infinite;
     100%{background-position:0% 50%}
 }
 
-#wrapper{
-  padding: 1% 0%;
+#container{
+  padding: 1% 2%;
   margin: 0 auto;
-  width:1200px;
+/*  width:1200px;*/
 }
+
+/*fieldset{
+  display:inline;
+}*/
 
 #mainNav{
   height:20px;
-  width:98%;
   margin-bottom:4%;
 }
 
 #workbook{
+  padding:0% 1%;
+  text-align:center;
 /*  height: 350px;
-*/  width:95%;
+ width:95%;
 /*  border:#da4949 2px solid;
   border-radius:10px;*/
 /*  margin-bottom:1%;*/
 }
 
-/*#customize{
-  width:98%;
-}
 
-#customize div{
-  float:left;
-  border:#da4949 2px solid;
-  border-radius:10px;
-  height:150px;
-}
-*/
+
 
 /*Formatting*/
 
@@ -75,7 +71,7 @@ label, select {
   margin: 0% 2%;
 }
 
-.form-inline select, .form-inline option {
+select, option {
    background: transparent;
    display:inline;
    padding: 0px;
@@ -99,38 +95,33 @@ label, select {
 
 /*WORKBOOK AREA*/
 
-/*CUSTOMIZE AREA*/
-/*#basic{
-  width:30%;
-/*  margin-right:1.5%;*/
-/*}
-
-#subs{
-  width:40%;
-  margin-right:1.5%;
+#workbook div{
+  display:inline-block;
+  float:left;
+  width:150px;
+  height:150px;
+  margin:5px;
+  border:#da4949 1px solid;
+  border-radius:5px;
 }
 
-#restore{
-  width:25.4%;
-  float:right;
-}*/
+
+#workbook img {
+  width:75%;
+  height:75%;
+  border:none;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 
 /*ADDITIONAL STYLES*/
 
-h2{
+label{
 	font-size: 42px;
 	padding-top: 1%;
 }
 
 h3{
 	font-size: 36px;
-}
-
-ul li{
-  display:inline-block;
-	width:150px;
-  height:150px;
-  margin:5px;
-  border:#da4949 1px solid;
-  border-radius:5px;
 }
