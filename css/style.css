@@ -27,6 +27,10 @@ animation: AnimationName 45s ease infinite;
 /*  width:1200px;*/
 }
 
+#wrapperNav{
+  padding:1%;
+  height:;
+}
 /*fieldset{
   display:inline;
 }*/
@@ -98,8 +102,8 @@ select, option {
 #workbook div{
   display:inline-block;
   float:left;
-  width:150px;
-  height:150px;
+  width:180px;
+  height:180px;
   margin:5px;
   border:#da4949 1px solid;
   border-radius:5px;
@@ -107,11 +111,21 @@ select, option {
 
 
 #workbook img {
-  width:75%;
-  height:75%;
+  max-width:100%;
+  max-height:100%;
   border:none;
-  object-fit: contain;
   margin: 0 auto;
+  padding:10px;
+}
+
+div.mix {
+  position: relative;
+}
+
+div.mix img {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
 }
 
 
