@@ -75,7 +75,7 @@ label, select {
   margin: 0% 2%;
 }
 
-select, option {
+.custom-dropdown{
    background: transparent;
    display:inline;
    padding: 0px;
@@ -88,6 +88,7 @@ select, option {
    border-radius: 0;
    height: 44px;
    -webkit-appearance: none;
+   appearance:none;
    }
 
 .burger img {
