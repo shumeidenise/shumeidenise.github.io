@@ -52,7 +52,6 @@ animation: AnimationName 45s ease infinite;
 
 
 
-
 /*Formatting*/
 
 div.cf:after {
@@ -63,10 +62,6 @@ div.cf:after {
 }
 
 /*mainNav*/
-label, select {
-  float:left;
-  margin-right:2%;
-}
 
 .logo img{
   width:5%;
@@ -75,7 +70,7 @@ label, select {
   margin: 0% 2%;
 }
 
-.custom-dropdown{
+select, option{
    background: transparent;
    display:inline;
    padding: 0px;
