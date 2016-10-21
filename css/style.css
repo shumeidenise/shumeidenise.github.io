@@ -22,32 +22,30 @@ animation: AnimationName 45s ease infinite;
 }
 
 #container{
-  padding: 1% 2%;
+  padding: 1% 1%;
   margin: 0 auto;
 /*  width:1200px;*/
 }
-
+/*
 #wrapperNav{
   padding:1%;
   height:;
-}
+}*/
 /*fieldset{
   display:inline;
 }*/
 
 #mainNav{
   height:20px;
-  margin-bottom:4%;
+  padding-bottom:4%;
+  margin:0 auto;
+
 }
 
 #workbook{
-  padding:0% 1%;
+  padding:0% 5% 0%;
   text-align:center;
-/*  height: 350px;
- width:95%;
-/*  border:#da4949 2px solid;
-  border-radius:10px;*/
-/*  margin-bottom:1%;*/
+/*  margin: 0 auto;*/
 }
 
 h3{
@@ -59,6 +57,7 @@ h3{
 p{
   padding:5px;
 }
+
 
 
 /*Formatting*/
@@ -96,9 +95,10 @@ select, option{
    }
 
 .dropdown img {
-  max-width:20%;
-  max-height:20%;
+  max-width:22%;
+  max-height:22%;
   margin-top:1%;
+  margin-right:15%;
   position:relative;
   float:right;
   }
@@ -119,6 +119,7 @@ select, option{
     right:0;
     font-size:1em;
     font-family:'Josefin Slab';
+    font-weight:800;
 }
 
 .dropdown:hover .dropdown-FYI {
@@ -132,7 +133,7 @@ select, option{
   float:left;
   width:180px;
   height:180px;
-  margin:5px;
+  margin:12px;
   border:#da4949 1px solid;
   border-radius:5px;
 }
@@ -152,6 +153,7 @@ select, option{
 
 div.mix {
   position: relative;
+  margin:20px;
 }
 
 div.mix img {
@@ -160,6 +162,12 @@ div.mix img {
   left: 5px;
 }
 
+div#copyright{
+  clear:both;
+  float:right;
+  height:10px;
+/*  text-align:right;*/
+}
 
 /*ADDITIONAL STYLES*/
 
