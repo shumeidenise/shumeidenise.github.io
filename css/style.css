@@ -1,6 +1,6 @@
 /*STRUCTURE*/
 body{
-	font-family: 'Amatic SC';
+	font-family: 'Amatic SC', 'Josefin Slab';
 	font-weight: 500;
 	font-size: 24px;
 background: linear-gradient(113deg, #a9c9d6, #d6a9cf, #d6a9a9, #edcc90, #a9d6cb);
@@ -50,6 +50,15 @@ animation: AnimationName 45s ease infinite;
 /*  margin-bottom:1%;*/
 }
 
+h3{
+  font-family: 'Josefin Slab', serif;
+  font-weight:600;
+  font-size:1.5em;
+}
+
+p{
+  padding:5px;
+}
 
 
 /*Formatting*/
@@ -86,13 +95,35 @@ select, option{
    appearance:none;
    }
 
-
-.burger img {
-  width:3%;
-  height:3%;
+.dropdown img {
+  max-width:20%;
+  max-height:20%;
   margin-top:1%;
+  position:relative;
   float:right;
-   }
+  }
+
+.dropdown {
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+
+.dropdown-FYI {
+    display: none;
+    position: absolute;
+    z-index:3;
+    background-color: rgba(255,255,255,0.7);
+    padding:20px;
+    min-width: 800px;
+    right:0;
+    font-size:1em;
+    font-family:'Josefin Slab';
+}
+
+.dropdown:hover .dropdown-FYI {
+    display: block;
+}
 
 /*WORKBOOK AREA*/
 
@@ -137,6 +168,11 @@ label{
 	padding-top: 1%;
 }
 
-h3{
-	font-size: 36px;
+ul.tip{
+  list-style: circle inside;
+}
+
+.attn{
+  font-weight:800;
+/*  text-decoration:underline;*/
 }
